@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campaigns",
+  "info": {
+    "singularName": "campaign",
+    "pluralName": "campaigns",
+    "displayName": "campaign"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "introductionText": {
+      "type": "text"
+    },
+    "subHeading1": {
+      "type": "string"
+    },
+    "subText1": {
+      "type": "text"
+    },
+    "subHeading2": {
+      "type": "string"
+    },
+    "subText2": {
+      "type": "text"
+    },
+    "subHeading3": {
+      "type": "string"
+    },
+    "subText3": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
